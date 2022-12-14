@@ -1,0 +1,20 @@
+.box-EFC{
+    width: 50%;
+    margin: auto;
+    height: 300px;
+    display: flex;
+    margin-top: 20px;
+    border-radius: 10px;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    border: 1px solid gainsboro;
+    box-shadow: 0 0 10px 1px gainsboro;
+}
+.box-EFC label{
+    text-align: center;
+    margin-bottom: 20px;
+}
+.dropDOwn{
+    width: 100%;
+}

@@ -1,0 +1,89 @@
+/* Styling for the home backdrop */
+  .backDrop{
+    position: absolute;
+    height: 40%;
+    width: 100%;
+ }
+
+/* Welcome back title styling to have it over the image */
+ .welcomeTitle{
+  z-index: 5;
+  margin: 5rem;
+  margin-top: 3.5rem;
+ }
+ .welcomeTitle > h1{
+  color: white;
+  font-size: 30px;
+  float: left;
+  font-weight: bold;
+ }  
+ 
+/* Styling for the content in the boxes */
+ .home-body{
+    margin: auto;
+  }
+  .home > p{
+    font-size: 20px;
+  }
+
+/* Chart styling  */
+  .chart{
+    height: 500px;
+  }
+  #chartArea{
+    padding-bottom: 0%;
+  }
+  #chartArea > h1{
+    margin-bottom: 1.5%;
+  }
+
+/* Heat map styling */
+  .home > div{
+    width: 500px;
+    height: 500px;
+    margin: auto;
+  }
+  .map{
+    width: 500px !important;
+    height: 500px !important;
+  }
+
+  .progress-bar{
+    background-color: white;
+    width: fit-content !important;
+    height: fit-content !important;
+  }
+
+  .updateField{
+    width: 100%;
+  }
+
+  .seperator{
+    background-color: #1b4c7d;
+    width: 100%;
+    margin-bottom: 5%;
+    margin-top: 5%;
+    text-align: center;
+    font-size: 40px;
+    color: white;
+    font-weight: 600;
+    padding: 3%;
+    padding-bottom: 3%;
+  }
+
+  #recommendationTable{
+    margin: auto;
+    width: 100%;
+  }
+  .tablerow{
+    border-bottom: lightgrey 1px solid;
+    text-align: left;
+  }
+.titleTable{
+  font-size: 40px;
+  font-weight: bold;
+}
+.rowData{
+  padding: 2%;
+  vertical-align: middle;
+}
